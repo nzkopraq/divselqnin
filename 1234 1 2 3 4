@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,h,s,d,e;
+	cout<<"Dai 4islo,plz."<<endl;
+	cin>>a;
+	h= a/1000;
+	s=(a/100)%10;
+	d=(a/10)%10;
+	e=a%10;
+	cout<<h<<endl;
+	cout<<s<<endl;
+	cout<<d<<endl;
+	cout<<e<<endl;
+	system("pause");
+	return 0;
+}
