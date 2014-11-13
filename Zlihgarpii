@@ -1,0 +1,51 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+	string a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t;
+	cout<<"Pomnish li gi oniq pi4oe?";
+    getline(cin, a);
+	getline(cin, b);
+	getline(cin, c);
+	getline(cin, d);
+	getline(cin, e);
+	getline(cin, f);
+	getline(cin, g);
+	getline(cin, h);
+	getline(cin, i);
+	getline(cin, j);
+	getline(cin, k);
+	getline(cin, l);
+	getline(cin, m);
+	getline(cin, n);
+	getline(cin, o);
+	getline(cin, p);
+	getline(cin, q);
+	getline(cin, r);
+	getline(cin, s);
+	getline(cin, t);
+	cout<<a<<endl;
+	cout<<b<<endl;
+	cout<<c<<endl;
+	cout<<d<<endl;
+	cout<<e<<endl;
+	cout<<f<<endl;
+	cout<<g<<endl;
+	cout<<h<<endl;
+	cout<<i<<endl;
+	cout<<j<<endl;
+	cout<<k<<endl;
+	cout<<l<<endl;
+	cout<<m<<endl;
+	cout<<n<<endl;
+	cout<<o<<endl;
+	cout<<p<<endl;
+	cout<<q<<endl;
+	cout<<r<<endl;
+	cout<<s<<endl;
+	cout<<t<<endl;
+	cout<<"vie ste ne4oveci"<<endl;
+	system("pause");
+	return 0;
+}
