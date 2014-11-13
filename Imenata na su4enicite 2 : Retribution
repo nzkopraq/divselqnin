@@ -1,0 +1,19 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+	int i;
+   string a[20];
+   for(i=0;i<=19;i++)
+   {
+	   cout<<"Pomni6 li "<<i+1<<" nomer ot klasa ti?"<<endl;
+        getline(cin, a[i]);
+   }
+   for(i=0;i<=19;i++)
+   {
+	   cout<<a[i]<<endl;
+   }
+   system("pause");
+   return 0;
+}
