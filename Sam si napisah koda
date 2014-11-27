@@ -11,7 +11,7 @@ int main()
 	int a;
 	cout<<"Kaji nqkvo 4islo."<<endl;
 	cin>>a;
-	string isEven = zakonmiedumata(a) ? "true" : "false"; \\tova opredeleno go izmislih az
+	string isEven = zakonmiedumata(a) ? "true" : "false"; //tova opredeleno go izmislih az
 	cout << isEven <<endl;
 	system("pause");
 	return 0;
