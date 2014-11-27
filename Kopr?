@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+void dumatamiezakon()
+{
+	cout<<"Maraba, FMI."<<endl;
+}
+int main()
+{
+	dumatamiezakon();
+	system("pause");
+	return 0;
+}
