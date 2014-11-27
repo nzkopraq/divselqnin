@@ -1,0 +1,22 @@
+#include<iostream>
+#include<string>
+using namespace std;
+bool zakonmiedumata(int a)
+{
+	for(int i=2;i<=a-1;i++)
+	{
+		if(a%i==0) return false;
+		
+	}
+        return true;
+}
+int main()
+{
+	int a;
+	cout<<"Kaji nqkvo 4islo."<<endl;
+	cin>>a;
+	string prosto = zakonmiedumata(a) ? "prosto e" : "ne e prosto";
+	cout << prosto <<endl;
+	system("pause");
+	return 0;
+}
