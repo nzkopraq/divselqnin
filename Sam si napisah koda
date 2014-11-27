@@ -1,0 +1,17 @@
+#include<iostream>
+#include<string>
+using namespace std;
+bool zakonmiedumata(int a)
+{
+	if(a%2==0) return true;
+	return false;
+}
+int main()
+{
+	int a;
+	cout<<"Kaji nqkvo 4islo."<<endl;
+	cin>>a;
+	string isEven = zakonmiedumata(a) ? "true" : "false";
+	cout << isEven <<endl;
+	system("pause");
+	return 0;
