@@ -1,0 +1,16 @@
+#include<iostream>
+
+using namespace std;
+ int n(int a)
+ {
+	 if(a/10<1) return a%10;
+	  return a%10 + n(a/10);
+ }
+ int main()
+ {
+	 double b;
+	 cin>>b;
+	 cout<<n(b)<<endl;
+	 system ("pause");
+	 return 0;
+ }
